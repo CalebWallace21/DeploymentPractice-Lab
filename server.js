@@ -11,6 +11,6 @@ app.get(`/api/cat`, (req, res) => {
     res.status(200).send(`Macy`)
 })
 
-app.listen(4000,
-   () => console.log(`server running on 4000`)
+app.listen(4001,
+   () => console.log(`server running on 4001`)
 )
